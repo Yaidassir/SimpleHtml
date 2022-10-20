@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier2</title>
+</head>
+<body m>
+  <p><center><h1>Informations personelles</h1></center></p>
+    <form action="register.php" method="POST">
+        <label for="Nom">Nom</label><br>
+        <input type="text" id="Nom" name="Nom" placeholder="vote nom" ><br>
+        <label for="prenom">Prénom</label><br>
+        <input type="text" id="prenom" name="prenom" placeholder="vote prenom" ><br>
+        <label for="date">Date de naissance</label><br>
+        <input type="text" id="date" name="date" placeholder="jj-mm-aaaa" ><br>
+        <label for="lieu">Lieu de naissance</label><br>
+        <SELECT name="lieu" size="1"><br>
+            <OPTION>Alger
+            <OPTION>Oran
+            <OPTION>Tiziouzou
+            <OPTION>Telemcen
+            <OPTION>Boumerdess
+        </SELECT>
+     <p><center><h1>Informations de Contact</h1></center></p>
+        <label for="email">Adresse email</label><br>
+        <input type="text" id="email" name="email" placeholder="vote adresse email" ><br>
+        <label for="numtel">Numéro de téléphone</label><br>
+        <input type="text" id="numtel" name="numtel" placeholder="vote numéro de téléphone" ><br>
+        <label for="adresse">Adresse</label>
+        <input type="text" id="adresse" name="adresse" placeholder="vote adresse" >
+        <label for="commune">commune</label>
+        <SELECT name="commune" size="1  ">
+            <OPTION>Algercentre
+            <OPTION>Cheraga
+            <OPTION>Husseindey
+            <OPTION>Harrach
+            <OPTION>Draria
+            <OPTION>Oran
+            <OPTION>Aïn El Turk
+            <OPTION>Arzew
+            <OPTION>Bethioua
+            <OPTION>Es Sénia
+            <OPTION>Ain El Hammam	
+            <OPTION>Azazga
+            <OPTION>Azeffoun
+            <OPTION>Beni Douala
+            <OPTION>Beni Yenni
+            <OPTION>Maghnia
+            <OPTION>Mansourah
+            <OPTION>Marsa Ben M'Hidi
+            <OPTION>Nedroma
+            <OPTION>Ghazaouet
+            <OPTION>Boudouaou
+            <OPTION>Bordj Ménaiel
+            <OPTION>Dellys
+            <OPTION>Isser
+            <OPTION>Thénia       
+        </SELECT>
+        <label for="wilaya">Wilaya</label>
+        <SELECT name="wilaya" size="1">
+            <OPTION>Alger
+            <OPTION>Oran
+            <OPTION>Tiziouzou
+            <OPTION>Telemcen
+            <OPTION>Boumerdess
+                
+                
+        </SELECT>
+
+
+     <p><center><h1>Informations sur le cursus</h1></center></p>
+     <ol>
+        <li>Cycle Secondaire</li>
+        <ul>
+            <li><label for="lyce">Lycée</label><br></li>
+            <input type="text" id="lyce" name="lyce" placeholder="vote lycée" ><br>
+            <li><label for="anndeb">Année début</label><br></li>
+            <SELECT name="anndeb" size="1">
+                <OPTION>2005
+                <OPTION>2006
+                <OPTION>2007
+                <OPTION>2008
+                <OPTION>2009
+                <OPTION>2010    
+                <OPTION>2011
+                <OPTION>2012
+                <OPTION>2013
+                <OPTION>2014
+                <OPTION>2015
+                    
+            </SELECT>
+            <li><label for="annfin">Année fin</label><br></li>
+            <SELECT name="annfin" size="1">
+                <OPTION>2010    
+                <OPTION>2011
+                <OPTION>2012
+                <OPTION>2013
+                <OPTION>2014
+                <OPTION>2015
+                <OPTION>2016
+                <OPTION>2017
+                    
+            </SELECT>
+    
+    
+        </ul>
+
+        <li>Bac</li>
+        <ul>
+            <li><label for="ser">Série</label><br></li>
+            <SELECT name="ser" size="1">
+                <OPTION>Sciences Exactes
+                <OPTION>Maths
+                <OPTION>Sciences de la Nature et de la Vie
+                <OPTION>Maths Technique
+                    
+            </SELECT>
+            <li><label for="mention">Mention</label><br></li>
+            <SELECT name="mention" size="1">
+                <OPTION>Assez Bien
+                <OPTION>Bien
+                <OPTION>Très Bien
+                <OPTION>Excellent
+                    
+            </SELECT>
+            <li><label for="moyenne">Moyenne</label><br></li>
+            <input type="text" name="moyenne" id="moyenne" placeholder="votre moyenne">
+            
+        </ul>
+
+        <li>Cycle Universitaire</li>
+        <ul>
+            <li><label for="andeb">Année de début</label><br></li>   
+            <SELECT name="andeb" size="1">
+                <OPTION>2010    
+                <OPTION>2011
+                <OPTION>2012
+                <OPTION>2013
+                <OPTION>2014
+                <OPTION>2015
+                <OPTION>2016
+                <OPTION>2017
+                    
+            </SELECT>
+            <li><label for="titrepfe">Titre P.F.E.</label><br></li> 
+            <textarea name="titrepfe" id="titrepfe" cols="30" rows="10"></textarea>
+
+        </ul>
+
+     </ol>
+     <input type="submit" value="Register">
+
+    </form>
+</body>
+</html>
